@@ -1,0 +1,21 @@
+{
+  "name": "@dev4vin/nest-api-utils",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc'",
+    "test": "jest'"
+  },
+  "dependencies": {
+    "@dev4vin/commons": "0.0.1"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/graphql": "^10.0.5",
+    "@nestjs/mapped-types": "*",
+    "@nestjs/passport": "^8.0.1",
+    "@nestjs/swagger": "^5.1.4",
+    "typeorm": "^0.2.24"
+  }
+}

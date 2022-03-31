@@ -1,0 +1,5 @@
+{
+  "root": "libs/nest-api-helpers",
+  "tags": ["'nest", ""],
+  "targets": {}
+}
